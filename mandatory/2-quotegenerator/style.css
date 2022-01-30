@@ -1,1 +1,27 @@
 /** Write your CSS in here **/
+body{
+    display: flex;
+    width: 1100px;
+    
+    height: 400px;
+    align-content: center;
+    align-items: center;
+    background-color: orange;
+    margin: 50px auto auto 120px;
+}
+
+.container{
+
+   background-color: white;
+     width: 80%;
+     height: 80%;
+     position: relative;  
+}
+
+.but{
+    position: flex  ;
+    left : 270px;
+    margin-top: 130px;
+    color: white;
+    background-color: orange;
+}

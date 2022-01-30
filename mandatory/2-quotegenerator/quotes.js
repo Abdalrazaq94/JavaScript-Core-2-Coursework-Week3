@@ -1,3 +1,34 @@
+
+
+// creating Div
+
+let dev = document.createElement('div');
+
+let quote = document.createElement('h4')
+let author = document.createElement('h3')
+
+let button = document.createElement('button')
+
+document.body.append(dev)
+//appending the elemt into each other
+
+dev.appendChild(quote)
+dev.appendChild(author)
+dev.appendChild(button)
+
+dev.className = 'container'
+button.className = 'but'
+button.innerHTML = 'change qoutes'
+
+button.addEventListener('click', add)
+
+
+function add(params) {
+  let newQoute = pickFromArray(quotes)
+  quote.innerHTML = newQoute.quote
+  author.innerHTML = newQoute.author  
+}
+
 // DO NOT EDIT BELOW HERE
 
 // A function which will return one item, at
