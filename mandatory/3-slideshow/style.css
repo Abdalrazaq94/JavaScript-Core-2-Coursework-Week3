@@ -1,1 +1,14 @@
 /** Write your CSS in here **/
+
+.div{
+
+    width: auto;
+    height: 100%;
+    padding: auto;
+    margin: auto;
+}
+.div2{
+
+    margin: 4px auto auto 13px;
+    padding: 10px   ;
+}
